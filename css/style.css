@@ -1597,10 +1597,17 @@ align-items: stretch;}
 }
 .work-box:not(:last-child) {
   margin-block-end: var(--gutter-huge);
+  margin-bottom: 8%;
+
 }
  
 .work-item {
   display: flex;
   justify-content: space-between;
+
+}
+
+.work-text{
+  margin-bottom: 2%;
 
 }
